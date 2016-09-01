@@ -1,6 +1,6 @@
 # 301n3-portfolio
 
-Developer Portfolio for Code 301 at Code Fellows Portland.
+Developer Portfolio for Code 301 at Code Fellows.
 
 ## License
 
