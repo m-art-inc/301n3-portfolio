@@ -27,6 +27,27 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <script id="template" type="text/x-handlebars-template">
+
+        <div id="sectionWrapper">
+            <div>
+                <h3 class='pieceTitle'>{{title}}</h3>
+                <span class='dateTime'>{{date}}</span>
+                <br><br><br><br>
+            </div>
+            <div class='imgUrl' id='macbook-img'>{{{'imgUrl'}}}</div>
+            <br><br>
+            <div class="description">
+                <p>{{description}}</p>
+            </div>
+            <address><a href={{url}}>{{{'url'}}}</a></address>
+            <br><br>
+        </div>
+
+    </script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -108,38 +129,38 @@
         </div>
         <br><br>
     </section>
-            <hr>
+    <hr>
     <!-- Work Section -->
     <section id="work" class="content-section text-center">
         <div class="work-section">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 id="colored-heading">Work:</h2>
-                    <p>Below you can find a mixture of projects ranging from Graphic Design to Web Development.</p>
-                    <br><br>
-                    <!-- Template Section -->
-                        <div class="row">
-                            <div id="templateDiv" class="main-template">
-                                <!-- Bio -->
-                                <div id="sectionWrapper">
-                                    <div class="col-lg-8 col-lg-offset-2">
-                                        <div>
-                                            <h3 class="pieceTitle">Title</h3>
-                                            <div class="imgUrl" id="macbook-img"></div>
-                                              <br><br>
-                                            <span class="dateTime">Date</span>
-                                        </div>
-                                        <div class="description">
-                                            <p>VHS pitchfork godard tousled austin mixtape YOLO, tacos wayfarers keytar master cleanse. Post-ironic you probably haven't heard of them kinfolk marfa, before they sold out iPhone man bun pop-up ethical godard next level
-                                                3 wolf moon irony drinking vinegar cornhole. Pickled brunch keffiyeh tote bag paleo. Raw denim tattooed taxidermy messenger bag kale chips knausgaard. Actually letterpress artisan semiotics. Tattooed VHS DIY lo-fi post-ironic
-                                                iPhone. Chambray XOXO photo booth pinterest flexitarian, portland crucifix knausgaard sustainable kogi farm-to-table vice ethical irony.</p>
-                                            <br><br>
-                                            <address class="data-url"><a href="">url</a></address>
-                                        </div>
-                                    </div>
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2 id="colored-heading">Work:</h2>
+                <p>Below you can find a mixture of projects ranging from Graphic Design to Web Development.</p>
+                <br><br>
+                <!-- Template Section -->
+                <div class="row">
+                    <div id="templateDiv" class="main-template">
+                        <!-- Bio -->
+                        <!-- <div id="sectionWrapper">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div>
+                                    <h3 class="pieceTitle">Title</h3>
+                                    <div class="imgUrl" id="macbook-img"></div>
+                                    <br><br>
+                                    <span class="dateTime">Date</span>
+                                </div>
+                                <div class="description">
+                                    <p>VHS pitchfork godard tousled austin mixtape YOLO, tacos wayfarers keytar master cleanse. Post-ironic you probably haven't heard of them kinfolk marfa, before they sold out iPhone man bun pop-up ethical godard next level
+                                        3 wolf moon irony drinking vinegar cornhole. Pickled brunch keffiyeh tote bag paleo. Raw denim tattooed taxidermy messenger bag kale chips knausgaard. Actually letterpress artisan semiotics. Tattooed VHS DIY lo-fi
+                                        post-ironic iPhone. Chambray XOXO photo booth pinterest flexitarian, portland crucifix knausgaard sustainable kogi farm-to-table vice ethical irony.</p>
+                                    <br><br>
+                                    <address class="data-url"><a href="">url</a></address>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+                    </div>
                 </div>
+            </div>
             <!-- </div> -->
         </div>
         <hr>
@@ -184,7 +205,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    
+
     <!-- handlebars.js -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 
@@ -199,4 +220,5 @@
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
