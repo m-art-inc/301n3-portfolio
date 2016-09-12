@@ -1,12 +1,12 @@
 {
-  "name": "grayscale",
-  "title": "Grayscale",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/grayscale",
-  "author": "Start Bootstrap",
+  "name": "Martin Carmen",
+  "title": "Portfolio",
+  "version": "class04",
+  "homepage": "http://martincarmen.com",
+  "author": "m-art-inc",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    "url": "https://github.com/LICENSE"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+    "url": "https://github.com/m-art-inc"
   }
 }
