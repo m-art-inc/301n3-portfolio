@@ -1,0 +1,24 @@
+[
+{
+	"title": "My First portfolio piece",
+	"date": "03-06-2016",
+	"url": "<button class='btn btn-default btn-lg'><a href='http://martincarmen.com'>View Project</a></button>",
+	"gitUrl": "https://www.github.com/m-art-inc",
+	"description": "<p>This is the first piece for my online portfolio. I created this during my coursework at Code Fellows</p>",
+	"imgUrl": "<div><img src='img/macbook.png'/></div>"
+}, {
+	"title": "My Second portfolio piece",
+	"date": "06-02-2016",
+	"url": "<button class='btn btn-default btn-lg'><a href='http://martincarmen.com'>View Project</a></button>",
+	"gitUrl": "https://www.github.com/m-art-inc",
+	"description": "<p>This is the second piece for my online portfolio. I created this during my coursework at Code Fellows</p>",
+	"imgUrl": "<div><img src='img/macbook.png'/></div>"
+}, {
+	"title": "My Third portfolio piece",
+	"date": "08-20-2016",
+	"url": "<button class='btn btn-default btn-lg'><a href='http://martincarmen.com'>View Project</a></button>",
+	"gitUrl": "https://www.github.com/m-art-inc",
+	"description": "<p>This is the third piece for my online portfolio. I created this during my coursework at Code Fellows</p>",
+	"imgUrl": "<div><img src='img/macbook.png'/></div>"
+}
+]
