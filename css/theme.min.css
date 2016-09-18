@@ -4,11 +4,11 @@ body, html {
 }
 
 .navbar-custom, body {
-    background-color: #000
+    background-color: #000;
 }
 
 .intro, body, html {
-    width: 100%
+    width: 100%;
 }
 
 body {
@@ -33,14 +33,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin: 0 0 25px;
     font-size: 16px;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 @media (min-width:768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
-        line-height: 1.6
+        line-height: 1.6;
     }
 }
 
@@ -53,23 +53,20 @@ a {
 
 a:focus, a:hover {
     text-decoration: none;
-    color: #1d9b6c:
-}
-
-.light {
-    font-weight: 400
+    color: #000;
 }
 
 .navbar-custom {
-    margin-bottom: 0;
+    margin-bottom: 30px;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
 .navbar-custom .navbar-toggle {
+    vertical-align: middle;
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .navbar-custom .nav li a:active, .navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
@@ -82,9 +79,10 @@ a:focus, a:hover {
 }
 
 .navbar-custom .navbar-brand {
+  /*height: auto;*/
   vertical-align: middle;
-  width: auto;
-  height: auto;
+  width: 50%;
+  display: block;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -102,7 +100,7 @@ a:focus, a:hover {
 }
 
 .navbar-custom .nav li a:hover {
-    color: rgba(255, 255, 255, .8)
+    color: #fb7070;
 }
 
 .navbar-custom .nav li.active {
@@ -110,11 +108,12 @@ a:focus, a:hover {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255, 255, 255, .3)
+    background-color: #42DCA3;
+    color: #000;
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff
+    color: #fff;
 }
 
 @media (min-width:768px) {
@@ -130,7 +129,7 @@ a:focus, a:hover {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         background: #000;
-        border-bottom: 1px solid rgba(255, 255, 255, .3)
+        border-bottom: 1px solid #42DCA3;
     }
 }
 
@@ -153,20 +152,20 @@ a:focus, a:hover {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px
+    font-size: 30px;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px
+    font-size: 18px;
 }
 
 @media (min-width:768px) {
     .intro {
         height: 100%;
-        padding: 0
+        padding: 0;
     }
     .intro .intro-body .brand-heading {
-        font-size: 80px
+        font-size: 80px;
     }
     .intro .intro-body .intro-text {
         font-size: 26px
@@ -235,7 +234,7 @@ a:focus, a:hover {
 }
 
 .content-section {
-    padding-top: 100px
+    padding-top: 100px;
 }
 
 .work-section {
@@ -282,12 +281,12 @@ a:focus, a:hover {
 }
 
 ul.banner-social-buttons {
-    margin-top: 0
+    margin-top: 0;
 }
 
 @media (max-width:1199px) {
     ul.banner-social-buttons {
-        margin-top: 15px
+        margin-top: 10px;
     }
 }
 
@@ -298,7 +297,7 @@ ul.banner-social-buttons {
         padding: 0
     }
     ul.banner-social-buttons li:last-child {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 }
 
