@@ -24,5 +24,13 @@ portfolioItems.forEach(function(el) {
 });
 
 portfolioBlocks.forEach(function(p) {
-    $("#templateDiv").parent().append(p.postIt());
+    $('#templateDiv').parent().append(p.postIt());
 });
+
+
+Piece.dataFetch = function() {
+  $.getJSON('data/portfolioData.json', function(data) {
+    Piece.loadAll(data);
+    main.initIndexPage();
+  });
+};
