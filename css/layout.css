@@ -16,7 +16,8 @@
 }
 
 #keep-portland-weird{
-  padding: 50px;
+  display: block;
+  padding: 100px;
 }
 
 #emoji{
