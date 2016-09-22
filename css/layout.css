@@ -18,8 +18,19 @@
 #keep-portland-weird{
   display: block;
   padding: 100px;
+  clear: both;
 }
 
 #emoji{
   font-size: 50px;
+}
+
+#totalWords{
+  display: block;
+  text-align: center;
+  color: #42DCA3;
+  padding: 50px;
+  clear: both;
+  font-size: 14px;
+
 }
