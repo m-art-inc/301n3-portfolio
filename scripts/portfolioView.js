@@ -14,7 +14,7 @@
       console.log('appended to TemplateContent');
     });
     // porfolioView.setTeasers();
-    $('#totalWords').text(Piece.numWordsAll() + ' total words in blog');
+    $('#totalWords').text(Piece.numWordsAll() + ' total words in project description.');
 
   };
 
