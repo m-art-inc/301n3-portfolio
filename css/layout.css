@@ -1,0 +1,36 @@
+#macbook-img{
+  width: 99%;
+  height: 99%;
+}
+
+#colored-heading,h2{
+  color: #fb7070;
+}
+
+#me{
+  width: 40%;
+  padding: 50px;
+  height: auto;
+  display: inline-block;;
+  border-radius: 50%;
+}
+
+#keep-portland-weird{
+  display: block;
+  padding: 100px;
+  clear: both;
+}
+
+#emoji{
+  font-size: 50px;
+}
+
+#totalWords{
+  display: block;
+  text-align: center;
+  color: #42DCA3;
+  padding: 50px;
+  clear: both;
+  font-size: 14px;
+
+}
