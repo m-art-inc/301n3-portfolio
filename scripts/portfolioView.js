@@ -13,9 +13,8 @@
       $('#templateContent').append(a.postIt());
       console.log('appended to TemplateContent');
     });
-    // porfolioView.setTeasers();
-    $('#totalWords').text(Piece.numWordsAll() + ' total words in project description.');
 
+    $('#totalWords').text(Piece.numWordsAll() + ' total words in project description.');
   };
 
 
