@@ -138,15 +138,13 @@ a:focus, a:hover {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    /*color: #fff;
+    color: #fff;
     background: url(../img/intro-bg2.jpg) bottom center no-repeat #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover*/
-
-
-	background-color: hsla(200,40%,30%,.4);
+    -o-background-size: cover
+	/*background-color: hsla(200,40%,30%,.4);
 	background-image:
 		url('http://www.clker.com/cliparts/q/L/o/j/C/Q/forest-hi.png'),
 		url('http://www.inserthtml.com/parallax/trees.png'),
@@ -161,12 +159,12 @@ a:focus, a:hover {
 		0 100%,
 		0 0;
 	background-size:
-		2500px,
+		1800px,
 		800px,
 		500px 200px,
 		1000px,
 		400px 260px;
-	animation: 50s para infinite linear;
+	animation: 70s para infinite linear;
 	}
 
 @keyframes para {
@@ -178,7 +176,7 @@ a:focus, a:hover {
 			1000px 100%,
 			400px 0;
 		}
-	}
+	}*/
 }
 
 .intro .intro-body {
