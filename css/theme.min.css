@@ -271,10 +271,11 @@ a:focus, a:hover {
 }
 
 .work-section {
-    /*display: table;*/
+    display: table;
     width: 100%;
     height: auto;
-    /*padding: 100px 0;*/
+    clear: both;
+    padding: 100px 0;
     color: #fff;
     /*background: url(../img/logospage.png) center center no-repeat #000;
     -webkit-background-size: cover;
