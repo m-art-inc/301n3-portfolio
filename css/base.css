@@ -4,6 +4,9 @@
   display: none;
 }
 
+.imgUrl{
+  max-width: 100%;
+}
 .no-display {
   display: none;
 }

@@ -1,6 +1,6 @@
 # Portfolio
 
-This is my Web Developer Portfolio created using bootstrap to showcase my projects done at Code Fellows 301.
+This is my Web Developer Portfolio created using bootstrap, Javascript, and JSON,  to showcase my projects done at Code Fellows 301.
 
 
 
