@@ -31,12 +31,13 @@
 
     <script id="template" type="text/x-handlebars-template">
 
-        <div id="templateWrapper">
-                <address><a href="title"><h3>{{title}}</h3></a></address>
+        <div class="col-lg-12">
+                <address><a href="{{gitUrl}}"><h3>{{title}}</h3></a></address>
                 <span class="dateTime">{{date}}</span>
                 <br><br><br><br>
-
-            <div class="imgUrl" id="macbook-img">{{{'imgUrl'}}}</div>
+            <div class="imgUrl">
+              <div id="macbook-img">{{{'imgUrl'}}}</div>
+            </div>
             <br><br>
             <div class="description">
                 <p>{{{description}}}</p>
