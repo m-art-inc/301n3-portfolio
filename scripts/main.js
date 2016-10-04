@@ -27,21 +27,13 @@
   };
 
   Piece.fetchData = function(callback) {
-    if(localStorage.portItems) {
-      Piece.loadAll(JSON.parse(localStorage.portItems));
-      console.log('loaded all from local storage');
+    $.getJSON('data/portfolioData.json', function(rawData) {
+      console.log('Getting json rawdata from file', rawData);
+      Piece.loadAll(rawData);
+      localStorage.portItems = JSON.stringify(rawData);
+      console.log('stringifying things:', rawData);
       callback();
-
-    } else {
-      $.getJSON('data/portfolioData.json', function(rawData) {
-        console.log('Getting json rawdata from file', rawData);
-        Piece.loadAll(rawData);
-        localStorage.portItems = JSON.stringify(rawData);
-        console.log('stringifying things:', rawData);
-        callback();
-      });
-
-    }
+    });
   };
 
 
