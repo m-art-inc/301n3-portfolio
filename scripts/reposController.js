@@ -5,7 +5,7 @@
     $("#about").hide(),
     $("#work").hide(),
     $("#contact").hide(),
-    $('#about2').delay(100).hide().slideDown(300)
+    $('#repos').delay(100).hide().slideDown(300)
     repos.requestRepos(repoView.index);
   };
 
