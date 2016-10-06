@@ -15,4 +15,8 @@ page("/", function() {
     contactController.index();
   }),
 
+  page("/about2", function() {
+    reposController.index();
+  }),
+
   page();
