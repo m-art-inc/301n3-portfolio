@@ -1,13 +1,20 @@
 {
-  "name": "Martin Carmen",
-  "title": "Portfolio",
-  "version": "class05",
-  "homepage": "http://martincarmen.com",
-  "author": "m-art-inc",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/LICENSE"
+  "name": "301n3-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio page assignment for Code Fellows 301 course",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-art-inc/301n3-portfolio"
+  },
+  "author": "m-art-inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-art-inc/301n3-portfolio/issues"
+  },
+  "homepage": "https://github.com/m-art-inc/301n3-portfolio#readme",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -20,8 +27,7 @@
     "gulp-uglify": "^1.5.4",
     "jquery": "^1.11.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/m-art-inc"
+  "dependencies": {
+    "handlebars": "^4.0.5"
   }
 }

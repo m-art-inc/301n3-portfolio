@@ -31,7 +31,7 @@ gulp.task('less', function() {
 
 // Minify compiled CSS
 gulp.task('minify-css', ['less'], function() {
-    return gulp.src('css/grayscale.css')
+    return gulp.src('css/theme.css')
         .pipe(cleanCSS({
             compatibility: 'ie8'
         }))
@@ -46,7 +46,7 @@ gulp.task('minify-css', ['less'], function() {
 
 // Minify JS
 gulp.task('minify-js', function() {
-    return gulp.src('js/grayscale.js')
+    return gulp.src('scripts/grayscale.js')
         .pipe(uglify())
         .pipe(header(banner, {
             pkg: pkg
